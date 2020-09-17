@@ -11,8 +11,14 @@
 <body>
 <!-- style for three.gs stuff -->
 	<style>
+	body {
+		margin: 0;
+		overflow: hidden;
+		display: block;
+	}
 	#webgl{
 		position: relative;
+		display: block;
 	}
 	.button {
 		font-family: Arial;
@@ -23,24 +29,64 @@
 		color: #EFEEF1;
 		text-align: center;
 		text-decoration: none;
-		display: inline-block;
+		display: block;
 		padding: 0;
-		font-size: 4vmin;
+		font-size: 3vmin;
 		margin: auto;
 		z-index: 99;
 	}
+	
+	#ClimateChange{
+		top: 5%;
+		left: 5%;
+	}
+	
+	#Conflict{
+		top: 10%;
+		left: 5%;
+	}
+	#Fragility{
+		top: 15%;
+		left: 5%;
+	}
+	#Instability{
+		top: 20%;
+		left: 5%;
+	}
+	#Risk{
+		top: 25%;
+		left: 5%;
+	}
+	#Survival{
+		top: 30%;
+		left: 5%;
+	}
+	#Violence{
+		top: 35%;
+		left: 5%;
+	}
+	#Vulnerability{
+		top: 40%;
+		left: 5%;
+	}
+	#Warfare{
+		top: 45%;
+		left: 5%;
+	}
+	
+		 
 </style>
 	<!-- webgl, buttons and script sources-->
 	<div id="webgl">
-		<button class="button" id="Climate Change" style="top: 5%; left: 5%;">Climate Change</button>
-		<button class="button" id="Conflict" style="top: 5%; left: 35%;">Conflict</button>
-		<button class="button" id="Fragility" style="top: 5%; left: 50%;">Fragility</button>
-		<button class="button" id="Instability" style="top: 5%; left: 65%;">Instability</button>
-		<button class="button" id="Risk" style="top: 5%; left: 85%;">Risk</button>
-		<button class="button" id="Survival" style="top: 15%; left: 10%;">Survival</button>
-		<button class="button" id="Violence" style="top: 15%; left: 30%;">Violence</button>
-		<button class="button" id="Vulnerability" style="top: 15%; left: 55%;">Vulnerability</button>
-		<button class="button" id="Warfare" style="top: 15%; left: 80%;">Warfare</button>
+		<button class="button" id="ClimateChange" value="on" style="color: rgb(0, 255, 0)">Climate Change</button>
+		<button class="button" id="Conflict" value="on" style="color: rgb(255, 0, 0)">Conflict</button>
+		<button class="button" id="Fragility" value="on" style="color: rgb(100, 100, 255)">Fragility</button>
+		<button class="button" id="Instability" value="on" style="color: rgb(255, 200, 0)">Instability</button>
+		<button class="button" id="Risk" value="on" style="color: rgb(255, 0, 255)">Risk</button>
+		<button class="button" id="Survival" value="on" style="color: rgb(0, 255, 255">Survival</button>
+		<button class="button" id="Violence" value="on" style="color: rgb(255, 100, 0)">Violence</button>
+		<button class="button" id="Vulnerability" value="on" style="color: rgb(255, 0, 100)">Vulnerability</button>
+		<button class="button" id="Warfare" value="on" style="color: rgb(100, 0, 255)">Warfare</button>
 	</div>
 	<script src="lib/perlin.js" type="text/javascript"></script>
 	<script src="lib/dat.gui.min.js" type="text/javascript"></script>
