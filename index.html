@@ -76,10 +76,32 @@
 		left: 5%;
 	}
 	
+	marquee{
+		font-family: Arial;
+		align: center;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #EFEEF1;
+		text-align: right;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 3vmin;
+		margin: auto;
+		z-index: 99;
+	}
+	
+	#scrollingText{
+		top: 5%;
+		left: 75%;
+	}
+	
 		 
 </style>
 	<!-- webgl, buttons and script sources-->
 	<div id="webgl">
+		<marquee id="scrollingText" behavior="scroll" direction="up" scrollamount="2" height="45%" width="20%">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</marquee>
 		<button class="button" id="ClimateChange" value="on" style="color: rgb(0, 255, 0)">Climate Change</button>
 		<button class="button" id="Conflict" value="on" style="color: rgb(255, 0, 0)">Conflict</button>
 		<button class="button" id="Fragility" value="on" style="color: rgb(100, 100, 255)">Fragility</button>
