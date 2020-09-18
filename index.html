@@ -39,11 +39,12 @@
 		text-decoration: none;
 		display: block;
 		padding: 0;
-		font-size: 3vmin;
+		font-size: 2vw;
 		z-index: 99;
 		margin: 0px;
 		margin-right: 10px;
 		float: left;
+		overflow: hidden;
 	}
 	
 	#Title{
@@ -66,51 +67,41 @@
 	}
 	#ClimateChangeDiv{
 		position: absolute;
-		top: 25%;
-		left: 5%;
 	}
 	
 	#SurvivalDiv{
 		position: absolute;
-		top: 30%;
-		left: 5%;
+		top: 10%;
 	}
 	#ConflictDiv{
 		position: absolute;
-		top: 35%;
-		left: 5%;
+		top: 20%;
 	}
 	#ViolenceDiv{
 		position: absolute;
-		top: 40%;
-		left: 5%;
+		top: 30%;
 	}
 	#FragilityDiv{
 		position: absolute;
-		top: 45%;
-		left: 5%;
+		top: 40%;
 	}
 	#InstabilityDiv{
 		position: absolute;
 		top: 50%;
-		left: 5%;
 	}
 	#VulnerabilityDiv{
 		position: absolute;
-		top: 55%;
-		left: 5%;
+		top: 60%;
 	}
 	#RiskDiv{
 		position: absolute;
-		top: 60%;
-		left: 5%;
+		top: 70%;
 	}
 	
 	
 	#WarfareDiv{
 		position: absolute;
-		top: 65%;
-		left: 5%;
+		top: 80%;
 	}
 	
 	#CountriesText{
@@ -138,7 +129,6 @@
 		opacity: 75%;
 		font-family: Authentic90;
 		align: center;
-		position: absolute;
 		background-color: transparent;
 		border: none;
 		color: #FFFFFF;
@@ -166,10 +156,30 @@
 		display: block;
 		padding: 0;
 		margin: auto;
-		font-size: 1.5vmin;
+		font-size: 2vw;
 		z-index: 99;
 		bottom: 5%;
 		left: 5%;
+		float: left;
+	}
+	
+	#playAudio {
+		opacity: 75%;
+		font-family: Authentic90;
+		align: right;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		margin: auto;
+		font-size: 2vw;
+		z-index: 99;
+		bottom: 5%;
+		left: 12%;
 		float: left;
 	}
 	
@@ -197,7 +207,7 @@
 		opacity: 75%;
 		font-family: Authentic90;
 		align: center;
-		position: absolute;
+		float: left;
 		background-color: transparent;
 		border: none;
 		color: #FFFFFF;
@@ -205,83 +215,108 @@
 		text-decoration: none;
 		display: block;
 		padding: 0;
-		font-size: 3vmin;
+		font-size: 2vmin;
 		z-index: 99;
-		margin: 0px;
-		margin-right: 10px;
-		float: left;
-		top: 25%;
-		left: 28%;
 	}
 	
 	#ClimateChangeNumbers {
-		top: 25.2%;
-		left: 28%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#SurvivalNumbers{
-		top: 30.25%;
-		left: 28%;
+		top: 10%;
+		left: 50%;
 		position: absolute;
+		
 	}
 	
 	#ConflictNumbers{
-		top: 35.25%;
-		left: 28%;
+		top: 20%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#ViolenceNumbers{
-		top: 40.25%;
-		left: 28%;
+		top: 30%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#FragilityNumbers{
-		top: 45.25%;
-		left: 28%;
+		top: 40%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#InstabilityNumbers{
-		top: 50.25%;
-		left: 28%;
+		top: 50%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#VulnerabilityNumbers{
-		top: 55.25%;
-		left: 28%;
+		top: 60%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#RiskNumbers{
-		top: 60.25%;
-		left: 28%;
+		top: 70%;
+		left: 50%;
 		position: absolute;
 	}
 	
 	#WarfareNumbers{
-		top: 65.25%;
-		left: 28%;
+		top: 80%;
+		left: 50%;
 		position: absolute;
 	}
 	
+	#MenuBox {
+		top: 25%;
+		position: absolute;
+		left: 5%;
+		width: 35%;
+		height: 50%;
+		overflow: hidden;
+	}
+	
+	#InstructionsText{
+		opacity: 75%;
+		font-family: Authentic90;
+		align: center;
+		position: absolute;
+		background-color: #000000;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		margin: 0;
+		font-size: 1.5vmin;
+		z-index: 99;
+		left: 35%;
+		top: 30%;
+		float: left;
+		width: 30%;
+		height: 50%;
+	}
 		 
 </style>
 	<!-- webgl, buttons and script sources-->
 	<div id="webgl">
-		 <!-- <audio id="planktonMusic" autoplay loop muted controls> -->
-			<!-- <source src="assets/music/Plankton.mp3" type="audio/mp3"> -->
-			<!-- Your browser does not support the audio tag. -->
-		<!-- </audio>  -->
+		<audio id="planktonMusic" loops>
+			<source src="assets/music/Plankton.mp3" type="audio/mp3">
+		</audio> 
 		<div id="Title">CLIMATE CHANGE (P)ARTICLES</div>
 		<div style="opacity: 1" id="CountriesText">
 		
 		<h2>"Climate Change"</h2><br>China	10188<br>India	307902<br>Indonesia	2879<br>Pakistan	31886<br>Bangladesh	6270<br>Russia	1567<br>Japan	9561<br>Philippines	41105<br>Thailand	3471<br>Myanmar	1705<br>South Korea	2534<br>Malaysia	20722<br>Nepal	2809<br>North Korea	622<br>Australia	233627<br>Taiwan	5263<br>Sri Lanka	4647<br>Cambodia	1645<br>Papua New Guinea	331<br>Laos	189<br>Singapore	8345<br>New Zealand	141879<br>Fiji	3702<br>Bhutan	687<br>Samoa	503<br>Tonga	113<br>Cook Islands	298<br>Afghanistan	4151<br>Vanuatu	484<br>Solomon Islands	241
 		</div>
-		<div id="ClimateChangeDiv">
+		<div id="MenuBox">
+			<div id="ClimateChangeDiv">
 				<button class="button" id="ClimateChange" value="on" style="color: rgb(0, 255, 0)">Climate Change</button>
 				
 			</div>
@@ -317,30 +352,37 @@
 				<button class="button" id="Warfare" value="off" style="color: rgb(255, 255, 2555)">Warfare</button>
 				
 			</div>
-			<div class="numbers" id="ClimateChangeNumbers">849326</div>
-			<div class="numbers" id="SurvivalNumbers">14575</div>
-			<div class="numbers" id="ConflictNumbers">283946</div>
-			<div class="numbers" id="ViolenceNumbers">44486</div>
-			<div class="numbers" id="FragilityNumbers">1008</div>
-			<div class="numbers" id="InstabilityNumbers">6271</div>
-			<div class="numbers" id="VulnerabilityNumbers">6155</div>
-			<div class="numbers" id="RiskNumbers">98397</div>
-			<div class="numbers" id="WarfareNumbers">3718</div>
+			<div id="NumbersBox">
+				<div class="numbers" id="ClimateChangeNumbers">849326</div>
+				<div class="numbers" id="SurvivalNumbers">14575</div>
+				<div class="numbers" id="ConflictNumbers">283946</div>
+				<div class="numbers" id="ViolenceNumbers">44486</div>
+				<div class="numbers" id="FragilityNumbers">1008</div>
+				<div class="numbers" id="InstabilityNumbers">6271</div>
+				<div class="numbers" id="VulnerabilityNumbers">6155</div>
+				<div class="numbers" id="RiskNumbers">98397</div>
+				<div class="numbers" id="WarfareNumbers">3718</div>
 			</div>
-		<div id="Instructions">	
-		About &nbsp&nbsp&nbsp(Click text to hide)
-		<br>Climate Change (P)articles displays the number of articles 
-		<br>published by digital news media in Asia Pacific that feature 
-		<br>the topic of climate change, between January 1st 2009 and December 31st 2019
+		</div>
+		<div id="Instructions" style="opacity: 0.25">	
+		About
+		</div>
+		<div id="playAudio" style="opacity: 0.25">	
+		Music
+		</div>
+		<div id="InstructionsText">
+			<br>Climate Change (P)articles displays the number of articles 
+			<br>published by digital news media in Asia Pacific that feature 
+			<br>the topic of climate change, between January 1st 2009 and December 
+			<br>31st 2019.
 
-		<p>Click on each topic above to see the number of articles that 
-		<br>discuss both climate change and that topic. The country list on 
-		<br>the right of the screen displays the number of articles that mention 
-		<br>both the topic and climate change in each country.
+			<p>Click on each topic above to see the number of articles that 
+			<br>discuss both climate change and that topic. The country list on 
+			<br>the right of the screen displays the number of articles that mention 
+			<br>both the topic and climate change in each country.
 
-		<p>Zoom in, zoom out, and click on the screen to drag 
-		<br>and move around the artwork, while viewing the data.
-
+			<p>Zoom in, zoom out, and click on the screen to drag 
+			<br>and move around the artwork, while viewing the data.
 		</div>
 		<div id="Credits"><p>A data visualisation and interactive experience by</p><p> The International Committee of the Red Cross and John Carolan</p></div>
 		
