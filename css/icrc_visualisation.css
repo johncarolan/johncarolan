@@ -1,0 +1,312 @@
+@font-face{
+		font-family: Authentic90;
+		src: url(/assets/fonts/AUTHENTICSans-90.woff);
+	}
+	body {
+		font-family: Authentic90;
+		margin: 0;
+		overflow: hidden;
+		display: block;
+	}
+	#webgl{
+		position: relative;
+		display: block;
+	}
+	.button {
+		opacity: 75%;
+		font-family: Authentic90;
+		align: center;
+		position: relative;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 2vw;
+		z-index: 99;
+		margin: 0px;
+		margin-right: 10px;
+		float: left;
+		overflow: hidden;
+	}
+	
+	.buttonAbout{
+		opacity: 75%;
+		font-family: Authentic90;
+		align: center;
+		position: relative;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 3vw;
+		z-index: 99;
+		margin: 0px;
+		margin-right: 10px;
+		float: left;
+		overflow: hidden;
+	}
+	
+	#Title{
+		font-family: Authentic90;
+		align: center;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #EFEEF1;
+		text-align: right;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 4vmin;
+		margin: 0;
+		z-index: 99;
+		top: 7%;
+		left: 5%;
+		
+	}
+	#ClimateChangeDiv{
+		position: absolute;
+	}
+	
+	#SurvivalDiv{
+		position: absolute;
+		top: 10%;
+	}
+	#ConflictDiv{
+		position: absolute;
+		top: 20%;
+	}
+	#ViolenceDiv{
+		position: absolute;
+		top: 30%;
+	}
+	#FragilityDiv{
+		position: absolute;
+		top: 40%;
+	}
+	#InstabilityDiv{
+		position: absolute;
+		top: 50%;
+	}
+	#VulnerabilityDiv{
+		position: absolute;
+		top: 60%;
+	}
+	#RiskDiv{
+		position: absolute;
+		top: 70%;
+	}
+	
+	
+	#WarfareDiv{
+		position: absolute;
+		top: 80%;
+	}
+	
+	#CountriesText{
+		font-family: Authentic90;
+		align: center;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #EFEEF1;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 1.5vmin;
+		margin: 0;
+		z-index: 99;
+		top: 5%;
+		right: 3%;
+		height: 40%;
+		width: 15%;
+		
+	}
+	
+	.numbers{
+		opacity: 75%;
+		font-family: Authentic90;
+		align: center;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 2vmin;
+		z-index: 99;
+		margin: 0px;
+		margin-right: 10px;
+		float: left;
+	}
+	
+	#Instructions {
+		opacity: 75%;
+		font-family: Authentic90;
+		align: right;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		margin: auto;
+		font-size: 2vmax;
+		z-index: 99;
+		bottom: 10%;
+		left: 5%;
+		float: left;
+	}
+	
+	#playAudio {
+		opacity: 75%;
+		font-family: Authentic90;
+		align: right;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		margin: auto;
+		font-size: 2vw;
+		z-index: 99;
+		bottom: 10%;
+		left: 20%;
+		float: left;
+	}
+	
+	#Credits {
+		opacity: 50%;
+		font-family: Authentic90;
+		align: right;
+		position: absolute;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: right;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		margin: auto;
+		font-size: 1.5vmin;
+		z-index: 99;
+		bottom: 10%;
+		right: 5%;
+		float: left;
+	}
+	
+	#NumbersBox {
+		opacity: 75%;
+		font-family: Authentic90;
+		align: center;
+		float: left;
+		background-color: transparent;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		padding: 0;
+		font-size: 2vmin;
+		z-index: 99;
+	}
+	
+	#ClimateChangeNumbers {
+		left: 50%;
+		position: absolute;
+	}
+	
+	#SurvivalNumbers{
+		top: 10%;
+		left: 50%;
+		position: absolute;
+		
+	}
+	
+	#ConflictNumbers{
+		top: 20%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#ViolenceNumbers{
+		top: 30%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#FragilityNumbers{
+		top: 40%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#InstabilityNumbers{
+		top: 50%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#VulnerabilityNumbers{
+		top: 60%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#RiskNumbers{
+		top: 70%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#WarfareNumbers{
+		top: 80%;
+		left: 50%;
+		position: absolute;
+	}
+	
+	#MenuBox {
+		top: 25%;
+		position: absolute;
+		left: 5%;
+		width: 35%;
+		height: 50%;
+		overflow: hidden;
+	}
+	
+	#InstructionsText{
+		opacity: 75%;
+		font-family: Authentic90;
+		align: center;
+		position: absolute;
+		background-color: #000000;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		text-decoration: none;
+		display: block;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 1.5vmin;
+		z-index: 99;
+		left: 34.5%;
+		top: 30%;
+		float: left;
+		width: 30%;
+		//height: 33%;
+		margin-top: 0;
+	}
