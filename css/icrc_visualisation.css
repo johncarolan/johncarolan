@@ -1,7 +1,7 @@
 @font-face{
 		font-family: Authentic90;
 		/* absolute url for github*/
-		src: url("https://johncarolan.github.io/johncarolan/css/fonts/AUTHENTICSans-90.woff");
+		src: url('https://johncarolan.github.io/johncarolan/css/fonts/AUTHENTICSans-90.woff');
 		/*for live
 		
 		src: url(fonts/AUTHENTICSans-90.woff) format("woff");
